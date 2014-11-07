@@ -299,11 +299,11 @@ public class NovacomDrivers {
     }
 
     private enum Driver {
-        Windows_x86("NovacomInstaller_x86.msi", "http://downloads.help.palm.com/opensource/novacom/novacom-win-32.tgz"),
-        Windows_x64("NovacomInstaller_x64.msi", "http://downloads.help.palm.com/opensource/novacom/novacom-win-64.tgz"),
-        Mac("NovacomInstaller.pkg", "http://downloads.help.palm.com/opensource/novacom/novacom-mac.tgz"),
-        Linux_x86("palm-novacom_1.0.76_i386.deb", "http://downloads.help.palm.com/opensource/novacom/novacom-linux-32.tgz"),
-        Linux_x64("palm-novacom_1.0.76_amd64.deb", "http://downloads.help.palm.com/opensource/novacom/novacom-linux-64.tgz");
+        Windows_x86("NovacomInstaller_x86.msi", "https://web.archive.org/web/20141031211619/http://downloads.help.palm.com/opensource/novacom/novacom-win-32.tgz"),
+        Windows_x64("NovacomInstaller_x64.msi", "https://web.archive.org/web/20141031211619/http://downloads.help.palm.com/opensource/novacom/novacom-win-64.tgz"),
+        Mac("NovacomInstaller.pkg", "https://web.archive.org/web/20141031211619/http://downloads.help.palm.com/opensource/novacom/novacom-mac.tgz"),
+        Linux_x86("palm-novacom_1.0.76_i386.deb", "https://web.archive.org/web/20141031211619/http://downloads.help.palm.com/opensource/novacom/novacom-linux-32.tgz"),
+        Linux_x64("palm-novacom_1.0.76_amd64.deb", "https://web.archive.org/web/20141031211619/http://downloads.help.palm.com/opensource/novacom/novacom-linux-64.tgz");
 
         private String file, url;
         Driver(String file, String url) {
