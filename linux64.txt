@@ -1,1 +1,0 @@
-https://cdn.downloads.palm.com/sdkdownloads/3.0.0.643/sdkBinaries/palm-novacom_1.0.76_amd64.deb
